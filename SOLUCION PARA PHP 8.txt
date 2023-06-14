@@ -1,0 +1,49 @@
+
+Aumenar los siguientes cambios en los archivo:
+
+
+/system/core/URI.php
+
+#[\AllowDynamicProperties]
+class CI_URI {
+
+
+
+
+
+
+/system/core/Router.php
+
+#[\AllowDynamicProperties]
+class CI_Router {
+
+
+
+
+
+/system/core/Loader.php
+
+#[\AllowDynamicProperties]
+class CI_Loader {
+
+
+
+
+
+/system/core/Controller.php
+
+#[\AllowDynamicProperties]
+class CI_Controller {   
+
+
+
+
+
+/system/database/DB_driver.php
+
+#[\AllowDynamicProperties]
+abstract class CI_DB_driver {
+
+
+
+
